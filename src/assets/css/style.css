@@ -1,8 +1,8 @@
 body {
   background-image: url(https://orig00.deviantart.net/c5e8/f/2011/326/0/2/free_web_background_3_by_kgombocka-d4gz4lh.jpg); }
 
-.extend {
-  color: red; }
+.sub-nav {
+  list-style-type: none; }
 
 .java {
   color: orange; }

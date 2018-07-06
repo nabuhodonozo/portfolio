@@ -10,7 +10,9 @@ Techs I am going to use:
 * Bootstrap 4
 
 * Mby some angular or react
---
+
+-----------
+
 Techs I am using in development: 
 * Gulp
 * Node.js
