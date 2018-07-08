@@ -1,19 +1,13 @@
-html {
-  overflow: scroll;
-  overflow-x: hidden; }
-
-::-webkit-scrollbar {
-  width: 0px;
-  /* remove scrollbar space */
-  background: transparent;
-  /* optional: just make scrollbar invisible */ }
-
 body {
   background: url(https://orig00.deviantart.net/c5e8/f/2011/326/0/2/free_web_background_3_by_kgombocka-d4gz4lh.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none; }
 
 .sub-nav {
   list-style-type: none; }
@@ -36,12 +30,12 @@ body {
   padding: 20px;
   margin-bottom: 20px; }
 
-.name {
-  padding: 0px;
-  text-align: center; }
-
 h1 {
   text-align: center; }
+
+.target {
+  position: absolute;
+  margin-top: -140px; }
 
 #wrapper {
   padding: 90px 15px; }
@@ -77,8 +71,8 @@ h1 {
     position: fixed;
     top: 51px;
     flex-direction: column !important;
-    left: -220px;
-    width: 200px;
+    left: -250px;
+    width: 250px;
     overflow-y: auto;
     bottom: 0;
     overflow-x: hidden;

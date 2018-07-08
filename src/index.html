@@ -26,17 +26,26 @@
 
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <span class="java"> Linki jako spytext a strona SPA i tylko przesuwa i scroll bar usunac lub cus</span>
                 <ul class="navbar-nav animate side-nav">
                     <li class="nav-item">
-                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo</a>
+                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo.resume</a>
                         <ul class="sub-nav">
                             <li class="nav-item">
                                 <a class="nav-link colapse fas fa-caret-up" href="#"> model</a>
                                 <ul class="sub-nav">
                                     <li>
-                                        <a class="nav-link">User</a>
+                                        <a class="nav-link" href="#details-anchor">Details</a>
                                     </li>
+                                    <li>
+                                        <a class="nav-link" href="#contact-anchor">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#achievements-anchor">Achievements</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#skills-anchor">Skills</a>
+                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -69,10 +78,13 @@
         </nav>
 
         <!-- content -->
+        
+        <div id="content" data-offset="1000">
+            <div class="container lg" id="div">
+                <h1 class="type" id="details">Details.java</h1>
+                <a class="target" name="details-anchor">&nbsp;</a>
 
-        <div class="container lg" id="div">
-            <h1 class="type">Details.java</h1>
-            <pre>
+                <pre>
 
             </span><span class="java">public class </span><span class="type">Details</span><span class="type"> { 
             
@@ -85,11 +97,12 @@
                         </span><span class="string">&quot;w zespole ludzi o zbliżonych zainteresowaniach.&quot;</span><span class="java">;</span><span class="type"> 
                    
             } </span></pre>
-        </div>
+            </div>
 
-        <div class="container lg" id="div">
-            <h1 class="type">Contact.java</h1>
-            <pre>
+            <div class="container lg" id="div">
+                <h1 class="type">Contact.java</h1>
+                <a class="target" name="contact-anchor">&nbsp;</a>
+                <pre>
             <span class="java">public class </span><span class="type">Contact</span><span class="type"> { 
 
                 </span><span class="java">private </span><span class="type">String email = </span><span class="string">&quot;tomasz@czarnecki.uk&quot;</span><span class="java">;</span><span class="type"> 
@@ -99,33 +112,35 @@
                 </span><span class="java">private </span><span class="type">String GitHub = </span><span class="string">&quot;https://github.com/nabuhodonozo/&quot;</span><span class="java">;</span><span class="type"> 
             
             } </span></pre>
-        </div>
-        <div class="container lg" id="div">
-            <h1 class="type">Achievements.java</h1>
-            <pre>
-                <span class="java">public class </span><span class="type">Achievements </span><span class="type">{ 
-                 
-                    </span><span class="java">private </span><span class="type">String experience = 
-                        </span><span class="string">&quot;Technik informatyk</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;E.12 Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;E.13 Projektowanie lokalnych sieci komputerowych i administrowanie sieciami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;E.14 Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;Kurs CCNA Routing &amp; Switching w j. angielskim (2 z 4 modułów):</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;Introduction to networks</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                        </span><span class="string">&quot;Routing &amp; switching essentials&quot;</span><span class="java">;</span><span class="type"> 
-                                    
-                    </span><span class="java">private </span><span class="type">String projects = </span><span class="string">&quot;lista? Osobne strony na projekty&quot;</span><span class="java">;</span><span class="type"> 
-                    
-                    </span><span class="java">private </span><span class="type">Map&lt;String</span><span class="java">, </span><span class="type">String&gt; education = Map.of( 
-                        </span><span class="string">&quot;CodersLab&quot;</span><span class="java">, </span><span class="string">&quot;Java Web Developer&quot;</span><span class="java">,</span><span class="type"> 
-                        </span><span class="string">&quot;Technikum&quot;</span><span class="java">, </span><span class="string">&quot;Technik Informatyk&quot;</span><span class="type"> 
-                    )</span><span class="java">;</span><span class="type"> 
+            </div>
+            <div class="container lg" id="div">
+                <h1 class="type">Achievements.java</h1>
+                <a class="target" name="achievements-anchor">&nbsp;</a>
+                <pre>
+            <span class="java">public class </span><span class="type">Achievements </span><span class="type">{ 
+             
+                </span><span class="java">private </span><span class="type">String experience = 
+                    </span><span class="string">&quot;Technik informatyk</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;E.12 Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;E.13 Projektowanie lokalnych sieci komputerowych i administrowanie sieciami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;E.14 Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;Kurs CCNA Routing &amp; Switching w j. angielskim (2 z 4 modułów):</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;Introduction to networks</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                    </span><span class="string">&quot;Routing &amp; switching essentials&quot;</span><span class="java">;</span><span class="type"> 
+                                
+                </span><span class="java">private </span><span class="type">String projects = </span><span class="string">&quot;lista? Osobne strony na projekty&quot;</span><span class="java">;</span><span class="type"> 
                 
-                } </span></pre>
-        </div>
-        <div class="container lg" id="div">
-            <h1 class="type">Skills.java</h1>
-            <pre>
+                </span><span class="java">private </span><span class="type">Map&lt;String</span><span class="java">, </span><span class="type">String&gt; education = Map.of( 
+                    </span><span class="string">&quot;CodersLab&quot;</span><span class="java">, </span><span class="string">&quot;Java Web Developer&quot;</span><span class="java">,</span><span class="type"> 
+                    </span><span class="string">&quot;Technikum&quot;</span><span class="java">, </span><span class="string">&quot;Technik Informatyk&quot;</span><span class="type"> 
+                )</span><span class="java">;</span><span class="type"> 
+                
+            } </span></pre>
+            </div>
+            <div class="container lg" id="div">
+                <h1 class="type">Skills.java</h1>
+                <a class="target" name="skills-anchor">&nbsp;</a>
+                <pre>
             <span class="java">public class </span><span class="type">Skills</span><span class="type"> { 
                            
                 </span><span class="java">private </span><span class="type">String[] softSkills = { 
@@ -159,6 +174,7 @@
                 <span class="type">)</span><span class="java">;</span><span class="type"> 
             } 
                 </span></pre>
+            </div>
         </div>
     </div>
 
