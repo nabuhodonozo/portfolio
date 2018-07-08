@@ -1,5 +1,19 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */ }
+
 body {
-  background-image: url(https://orig00.deviantart.net/c5e8/f/2011/326/0/2/free_web_background_3_by_kgombocka-d4gz4lh.jpg); }
+  background: url(https://orig00.deviantart.net/c5e8/f/2011/326/0/2/free_web_background_3_by_kgombocka-d4gz4lh.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .sub-nav {
   list-style-type: none; }
