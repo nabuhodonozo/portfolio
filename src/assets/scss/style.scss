@@ -7,24 +7,27 @@ body{
     list-style-type: none;
 }
 
+
+
+
+
 .java{
-    color: orange;
+    color:  rgb(221, 109, 17);
+}
+.int{
+    color: rgb(19, 37, 204);
 }
 .type{
-    color: rgb(121, 121, 245);
+    color: rgb(109, 166, 228);
 }
-.name{
-    color: blueviolet;
-}
-.value{
-    color: rgba(54, 164, 228, 0.849);
+.string{
+    color: rgb(70, 160, 17);
 }
 
 #div{
-    background-color: rgba(#25282b, 0.5);
+    background-color: rgba(#1a1919, 0.7);
     border-radius: 50px;
-    height: 500px;
-    padding: 100px;
+    padding-top: 50px;
 }
 
 #wrapper{

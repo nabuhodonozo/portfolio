@@ -5,22 +5,21 @@ body {
   list-style-type: none; }
 
 .java {
-  color: orange; }
+  color: #dd6d11; }
+
+.int {
+  color: #1325cc; }
 
 .type {
-  color: #7979f5; }
+  color: #6da6e4; }
 
-.name {
-  color: blueviolet; }
-
-.value {
-  color: rgba(54, 164, 228, 0.849); }
+.string {
+  color: #46a011; }
 
 #div {
-  background-color: rgba(37, 40, 43, 0.5);
+  background-color: rgba(26, 25, 25, 0.7);
   border-radius: 50px;
-  height: 500px;
-  padding: 100px; }
+  padding-top: 50px; }
 
 #wrapper {
   padding: 90px 15px; }

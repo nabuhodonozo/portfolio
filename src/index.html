@@ -26,6 +26,7 @@
 
 
             <div class="collapse navbar-collapse" id="navbarText">
+                Linki jako spytext a strona SPA i tylko przesuwa i scroll bar usunac lub cus
                 <ul class="navbar-nav animate side-nav">
                     <li class="nav-item">
                         <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo</a>
@@ -46,6 +47,17 @@
                                         </li>
                                     </ul>
                             </li>
+                            <li class="nav-item">
+                                    <a class="nav-link colapse fas fa-caret-up" href="#"> resources</a>
+                                    <ul class="sub-nav">
+                                            <li>
+                                                <a class="nav-link" href="#">My Photo jpg</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" href="#">Cerfiificates</a>
+                                            </li>
+                                        </ul>
+                                </li>
                         </ul>
                     </li>
             
@@ -59,14 +71,79 @@
 
 
 
-        <div id="div">
-            <p><span class="java">public clas</span> Me {</p>
-            <p><span class="java">private</span><span class="type"> String</span> <span class="name"> name</span> = <span class="value">"Tomek"</span><span class="java">;</span></p>
-            <p><span class="java"></span></p>
-            <p><span class="java"></span></p>
-            <p><span class="java"></span></p>
-            <p><span class="java"></span></p>
-            <p><span class="java"></span></p>
+        <div class="container lg" id="div">
+                <pre>
+                    <span class="java">import </span><span class="type">java.time.LocalDate</span><span class="java">;</span><span class="type"> 
+                    </span><span class="java">import </span><span class="type">java.util.Map</span><span class="java">;</span><span class="type"> 
+                    </span><span class="java">import </span><span class="type">java.util.Set</span><span class="java">;</span><span class="type"> 
+                     
+                    </span><span class="java">public class </span><span class="type">EverythingAboutMe { 
+                        </span><span class="java">private </span><span class="type">String firstname = </span><span class="string">&quot;Tomasz&quot;</span><span class="java">;</span><span class="type"> 
+                        </span><span class="java">private </span><span class="type">String surname = </span><span class="string">&quot;Czarnecki&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String email = </span><span class="string">&quot;tomasz@czarnecki.uk&quot;</span><span class="java">;</span><span class="type"> 
+                        </span><span class="java">private </span><span class="type">String phoneNumber = </span><span class="string">&quot;+48 695 839 299&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String LinkedIn = </span><span class="string">&quot;https://www.linkedin.com/in/cztomasz/&quot;</span><span class="java">;</span><span class="type"> 
+                        </span><span class="java">private </span><span class="type">String GitHub = </span><span class="string">&quot;https://github.com/nabuhodonozo/&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String brief = 
+                                </span><span class="string">&quot;Programowaniem interesuję się już od najmłodszych lat. Moim marzeniem jest zostać senior</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;web developerem. Aby je zrealizować chciałbym rozpocząć pracę jako junior, by mieć możliwość</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;dalszego rozwoju moich umiejętności oraz zdobywać cenne doświadczenie współpracując w</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;zespole ludzi o zbliżonych zainteresowaniach.&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                     
+                     
+                        </span><span class="java">private </span><span class="type">Map&lt;String</span><span class="java">, </span><span class="type">String&gt; education = Map.of( 
+                                </span><span class="string">&quot;CodersLab&quot;</span><span class="java">, </span><span class="string">&quot;Java Web Developer&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Technikum&quot;</span><span class="java">, </span><span class="string">&quot;Technik Informatyk&quot;</span><span class="type"> 
+                        )</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String[] softSkills = { 
+                                </span><span class="string">&quot;Creativity&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Patience&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Humour&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Problem solving ablity&quot;</span><span class="type"> 
+                        }</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String projects = </span><span class="string">&quot;lista? Osobne strony na projekty&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String technologiesIamFamiliarWith = 
+                                </span><span class="string">&quot;Java,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;MySQL,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;JavaScript,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;HTML,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;CSS,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Git&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">String frameworksAndLibriariesIamFaimilarWith = </span><span class="string">&quot;Spring,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Hibernate,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Maven,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;jQuery,</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;JUnit&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                        </span><span class="java">private </span><span class="type">Set&lt;String&gt; toolsIamFamiliarWith = Set.of( 
+                                </span><span class="string">&quot;Linux&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Windows&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Intellij IDEA&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;eclipse&quot;</span><span class="type">)</span><span class="java">;</span><span class="type"> 
+                     
+                     
+                        </span><span class="java">private </span><span class="type">String experience = 
+                                </span><span class="string">&quot;Technik informatyk</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;E.12 Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;E.13 Projektowanie lokalnych sieci komputerowych i administrowanie sieciami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;E.14 Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Kurs CCNA Routing &amp; Switching w j. angielskim (2 z 4 modułów):</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Introduction to networks</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
+                                </span><span class="string">&quot;Routing &amp; switching essentials&quot;</span><span class="java">;</span><span class="type"> 
+                     
+                     
+                     
+                        </span><span class="java">private </span><span class="type">LocalDate birthdate = LocalDate.of(</span><span class="int">1997</span><span class="java">, </span><span class="int">07</span><span class="java">, </span><span class="int">15</span><span class="type">)</span><span class="java">;</span><span class="type"> 
+                     }</span>
+                    </pre>
         </div>
     </div>
 
