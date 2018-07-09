@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>nabuhodonozo</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="src/assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 </head>
 
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav animate side-nav">
                     <li class="nav-item">
-                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo.Me    </a>
+                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo.Me </a>
                         <ul class="sub-nav">
                             <li class="nav-item">
                                 <a class="nav-link colapse fas fa-caret-up" href="#"> model</a>
@@ -71,7 +71,7 @@
 
         <!-- content -->
 
-        <div id="content" data-offset="1000">
+        <div id="content">
             <div class="container lg board" id="details-div">
                 <h1 class="type">Details.java</h1>
                 <a class="target" id="details">&nbsp;</a>
@@ -94,6 +94,7 @@
             <div class="container lg board" id="contact-div">
                 <h1 class="type">Contact.java</h1>
                 <a class="target" id="contact">&nbsp;</a>
+
                 <pre>
             <span class="java">public class </span><span class="type">Contact</span><span class="type"> { 
 
@@ -111,15 +112,22 @@
                 <pre>
             <span class="java">public class </span><span class="type">Achievements </span><span class="type">{ 
              
-                </span><span class="java">private </span><span class="type">String experience = 
-                    </span><span class="string">&quot;Technik informatyk</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;E.12 Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;E.13 Projektowanie lokalnych sieci komputerowych i administrowanie sieciami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;E.14 Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami.</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;Kurs CCNA Routing &amp; Switching w j. angielskim (2 z 4 modułów):</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;Introduction to networks</span><span class="java">\n</span><span class="string">&quot; </span><span class="type">+ 
-                    </span><span class="string">&quot;Routing &amp; switching essentials&quot;</span><span class="java">;</span><span class="type"> 
-                                
+                </span><span class="java">public </span><span class="type">String[][] CertificatesAndCourses = { 
+                        {</span><span class="string">&quot;Technik informatyk&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;E.12 Montaż i eksploatacja komputerów osobistych oraz urządzeń peryferyjnych.&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;E.13 Projektowanie lokalnych sieci komputerowych i administrowanie sieciami.&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;E.14 Tworzenie aplikacji internetowych i baz danych oraz administrowanie bazami.&quot;</span><span class="type">}</span><span class="java">,</span><span class="type"> 
+                        {</span><span class="string">&quot;Kurs CCNA Routing &amp; Switching w j. angielskim (2 z 4 modułów):&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Introduction to networks&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Routing &amp; switching essentials&quot;</span><span class="type">}</span><span class="java">,</span><span class="type"> 
+                        {</span><span class="string">&quot;Coderslab 2 miesięczny Bootcamp&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Java Web Developer&quot;</span><span class="java">,</span><span class="type"> 
+                                </span><span class="string">&quot;Java, Spring, Hibernate, JavaScript, MySQL, Git, HTML, CSS&quot;</span><span class="type"> 
+                        } 
+                }</span><span class="java">;</span><span class="type"> 
+                             
+                        
+
                 </span><span class="java">private </span><span class="type">String projects = </span><span class="string">&quot;lista? Osobne strony na projekty&quot;</span><span class="java">;</span><span class="type"> 
                 
                 </span><span class="java">private </span><span class="type">Map&lt;String</span><span class="java">, </span><span class="type">String&gt; education = Map.of( 
@@ -171,10 +179,10 @@
     </div>
 
 
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/js.js"></script>
+    <script src="src/assets/js/bootstrap.min.js"></script>
+    <script src="src/assets/js/jquery.min.js"></script>
+    <script src="src/assets/js/popper.min.js"></script>
+    <script src="src/assets/js/js.js"></script>
 </body>
 
 </html>
