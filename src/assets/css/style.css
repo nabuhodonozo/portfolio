@@ -24,7 +24,7 @@ body {
 .string {
   color: #46a011; }
 
-#div {
+.board {
   background-color: rgba(26, 25, 25, 0.7);
   border-radius: 50px;
   padding: 20px;
@@ -36,6 +36,14 @@ h1 {
 .target {
   position: absolute;
   margin-top: -140px; }
+
+#contact-div a {
+  text-decoration: none;
+  color: #66ce12; }
+
+#contact-div a:hover {
+  text-decoration: none;
+  color: #91e20d; }
 
 #wrapper {
   padding: 90px 15px; }

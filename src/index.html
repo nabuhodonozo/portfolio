@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>nabuhodonozo</title>
-    <link rel="stylesheet" type="text/css" href="src/assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 </head>
 
@@ -28,42 +28,34 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav animate side-nav">
                     <li class="nav-item">
-                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo.resume</a>
+                        <a class="nav-link colapse fas fa-caret-up" href="#"> pl.nabuhodonozo.Me    </a>
                         <ul class="sub-nav">
                             <li class="nav-item">
                                 <a class="nav-link colapse fas fa-caret-up" href="#"> model</a>
                                 <ul class="sub-nav">
                                     <li>
-                                        <a class="nav-link" href="#details-anchor">Details</a>
+                                        <a class="nav-link" href="#details">Details</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#contact-anchor">Contact</a>
+                                        <a class="nav-link" href="#contact">Contact</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#achievements-anchor">Achievements</a>
+                                        <a class="nav-link" href="#achievements">Achievements</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#skills-anchor">Skills</a>
+                                        <a class="nav-link" href="#skills">Skills</a>
                                     </li>
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link colapse fas fa-caret-up" href="#"> entity</a>
+                                <a class="nav-link colapse fas fa-caret-up" href="#"> projects</a>
                                 <ul class="sub-nav">
                                     <li>
-                                        <a class="nav-link" href="#">Me</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link colapse fas fa-caret-up" href="#"> resources</a>
-                                <ul class="sub-nav">
-                                    <li>
-                                        <a class="nav-link" href="#">My Photo jpg</a>
+                                        <a class="nav-link" href="https://github.com/nabuhodonozo/groupTasker">Group Tasker</a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#">Cerfiificates</a>
+                                        <a class="nav-link" href="https://github.com/nabuhodonozo/portfolio">Portfolio</a>
                                     </li>
                                 </ul>
                             </li>
@@ -78,11 +70,11 @@
         </nav>
 
         <!-- content -->
-        
+
         <div id="content" data-offset="1000">
-            <div class="container lg" id="div">
-                <h1 class="type" id="details">Details.java</h1>
-                <a class="target" name="details-anchor">&nbsp;</a>
+            <div class="container lg board" id="details-div">
+                <h1 class="type">Details.java</h1>
+                <a class="target" id="details">&nbsp;</a>
 
                 <pre>
 
@@ -99,23 +91,23 @@
             } </span></pre>
             </div>
 
-            <div class="container lg" id="div">
+            <div class="container lg board" id="contact-div">
                 <h1 class="type">Contact.java</h1>
-                <a class="target" name="contact-anchor">&nbsp;</a>
+                <a class="target" id="contact">&nbsp;</a>
                 <pre>
             <span class="java">public class </span><span class="type">Contact</span><span class="type"> { 
 
-                </span><span class="java">private </span><span class="type">String email = </span><span class="string">&quot;tomasz@czarnecki.uk&quot;</span><span class="java">;</span><span class="type"> 
+                </span><span class="java">private </span><span class="type">String email = </span><span class="string">&quot;<a href="mailto:tomasz@czarnecki.uk">tomasz@czarnecki.uk</a>&quot;</span><span class="java">;</span><span class="type"> 
                 </span><span class="java">private </span><span class="type">String phoneNumber = </span><span class="string">&quot;+48 695 839 299&quot;</span><span class="java">;</span><span class="type"> 
 
-                </span><span class="java">private </span><span class="type">String LinkedIn = </span><span class="string">&quot;https://www.linkedin.com/in/cztomasz/&quot;</span><span class="java">;</span><span class="type"> 
-                </span><span class="java">private </span><span class="type">String GitHub = </span><span class="string">&quot;https://github.com/nabuhodonozo/&quot;</span><span class="java">;</span><span class="type"> 
+                </span><span class="java">private </span><span class="type">String LinkedIn = </span><span class="string">&quot;<a href="https://www.linkedin.com/in/cztomasz/">https://www.linkedin.com/in/cztomasz/</a>&quot;</span><span class="java">;</span><span class="type"> 
+                </span><span class="java">private </span><span class="type">String GitHub = </span><span class="string">&quot;<a href="https://github.com/nabuhodonozo/">https://github.com/nabuhodonozo/</a>&quot;</span><span class="java">;</span><span class="type"> 
             
             } </span></pre>
             </div>
-            <div class="container lg" id="div">
+            <div class="container lg board" id="achievements-div">
                 <h1 class="type">Achievements.java</h1>
-                <a class="target" name="achievements-anchor">&nbsp;</a>
+                <a class="target" id="achievements">&nbsp;</a>
                 <pre>
             <span class="java">public class </span><span class="type">Achievements </span><span class="type">{ 
              
@@ -137,9 +129,9 @@
                 
             } </span></pre>
             </div>
-            <div class="container lg" id="div">
+            <div class="container lg board" id="skills-div">
                 <h1 class="type">Skills.java</h1>
-                <a class="target" name="skills-anchor">&nbsp;</a>
+                <a class="target" id="skills">&nbsp;</a>
                 <pre>
             <span class="java">public class </span><span class="type">Skills</span><span class="type"> { 
                            
@@ -179,14 +171,10 @@
     </div>
 
 
-
-
-
-
-    <script src="src/assets/js/bootstrap.min.js"></script>
-    <script src="src/assets/js/jquery.min.js"></script>
-    <script src="src/assets/js/popper.min.js"></script>
-    <script src="src/assets/js/js.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/js.js"></script>
 </body>
 
 </html>

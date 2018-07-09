@@ -16,14 +16,14 @@ $(function () {
         e.preventDefault();
     });
 
-$('a').click(function(){		
-		var hashindex = $(this).attr("href").indexOf('#');
-		var hreflen = $(this).attr("href").length;
-		var anchortag = $(this).attr("href").substr(hashindex, hreflen);
-    $('html, body').animate({
-        scrollTop: $( anchortag ).offset().top
-    }, 700);
-    return false;
-	});
+    $('a').click(function () {
+        var hashindex = $(this).attr("href").indexOf('#');
+        var hreflen = $(this).attr("href").length;
+        var anchortag = $(this).attr("href").substr(hashindex, hreflen);
+        $('html, body').animate({
+            scrollTop: $(anchortag).offset().top
+        }, 700);
+        return false;
+    });
 
 });
