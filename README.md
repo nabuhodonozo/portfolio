@@ -1,4 +1,5 @@
-# portfolio (in progress)
+# [portfolio](https://nabuhodonozo.github.io/portfolio/) (in progress)
+here is the link or click above https://nabuhodonozo.github.io/portfolio/
 
 I'd like to make my own portfolio on github page.
 
